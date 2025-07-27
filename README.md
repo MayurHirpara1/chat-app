@@ -72,22 +72,6 @@ npm start
 npm run dev
 ```
 
-The application will be available at:
-- Frontend: `http://localhost:5173` (development) or served by backend (production)
-- Backend: `http://localhost:5001`
-
-## 📝 Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `MONGODB_URI` | MongoDB connection string | ✅ |
-| `PORT` | Server port (default: 5001) | ✅ |
-| `JWT_SECRET` | Secret key for JWT tokens | ✅ |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name | ✅ |
-| `CLOUDINARY_API_KEY` | Cloudinary API key | ✅ |
-| `CLOUDINARY_API_SECRET` | Cloudinary API secret | ✅ |
-| `NODE_ENV` | Environment mode | ✅ |
-
 ## 🏗️ Project Structure
 
 ```
